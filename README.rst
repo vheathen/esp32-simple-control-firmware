@@ -30,10 +30,13 @@ How to build and run the firmware project
 
 .. code-block:: bash
 
+    # Checkout this project
+    > git clone https://github.com/vheathen/esp32-simple-control-firmware.git
+
     # Change directory to example
     > cd esp32-simple-control-firmware
 
-    # Edit planformio.ini and set you wifi SSID and password!
+    # Edit planformio.ini and set you wifi SSID\password and MQTT broker settings (host\port)
 
     # Build project
     > platformio run
